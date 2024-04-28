@@ -68,7 +68,7 @@ const Equipacion = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Tenis Tacos de Fútbol</Text>
+      <Text style={styles.titulo}>Equipación de Fútbol</Text>
       <ScrollView style={styles.scrollContainer}>
         <View style={styles.productosContainer}>
           {productos.map((producto) => (
